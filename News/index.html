@@ -21,8 +21,18 @@
         </svg>
       </a>
     </header>
-    <main class="index">
-      <h1>Neuigkeiten</h1>
+    <main class="news-index">
+      <nav aria-labelledby="my-pagination">
+        <ol>
+          <li>First</li>
+          <li>Previous</li>
+          <li><a href="/News/" aria-current="page">Page 1</a></li>
+          <li><a href="/News/index-2/">Page 2</a></li>
+          <li><a href="/News/index-3/">Page 3</a></li>
+          <li><a href="/News/index-2/">Next</a></li>
+          <li><a href="/News/index-3/">Last</a></li>
+        </ol>
+      </nav>
       <news-tile>
         <a href="/News/2023/01/09/creating-news/">
           <figure style="background-color: #192727">
@@ -273,9 +283,6 @@
           </description>
         </a>
       </news-tile>
-      <news-archiv-link>
-        <a href="/News/index-2/">News-Archiv</a>
-      </news-archiv-link>
     </main>
     <footer>
       <nav>
