@@ -241,7 +241,6 @@ footer small {
     flex-direction: column;
     gap: 0.5rem;
     background-color: white;
-    padding-bottom: 1rem;
   }
   news-tile a figure {
     height: 12.5rem;
@@ -286,6 +285,8 @@ footer small {
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 2;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
   }
   news-tile a figure picture img.loaded {
     opacity: 1;
@@ -307,13 +308,8 @@ footer small {
   }
   news-tile a description {
     padding: .5rem;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
   }
   news-type, news-ctx {
     font-size: smaller;
